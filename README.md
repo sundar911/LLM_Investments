@@ -1,2 +1,4 @@
 # LLM_Investments
 GenAI chat solution built with Python to understand the budgets of India and the US 
+
+This repo contains Python code for a custom LLM model (Ollama Mistral). The model can answer questions about the fiscal budget of the US and India. The project presents an interactive chat solution towards understanding the budgets of the countries with two important equity markets in which strategic investments can be made after learning about the countries' fiscal budgets. A vector database is set up on Chroma DB using the PDFs of the Indian and American budget documents (as well as highlights from President Trump's 100 day plan). The nomic-embed-text Ollama embeddings and the mistral Ollama LLM model are used to retrieve data from the vector database to generate answers to user questions. 
